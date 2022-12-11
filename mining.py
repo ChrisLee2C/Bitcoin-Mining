@@ -19,7 +19,7 @@ def mine(block_number, transactions, previous_hash, prefix_zeros):
 if __name__ == '__main__':
     transactions = """
     A->B->1,
-    B->C->,0.5 
+    B->C->0.5 
     """
     difficulty = 6
     start = time.time()
